@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  .landing {
+    text-align: center;
+    padding: 50px;
+    color: white;
+  }
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  .card {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  .cart-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+  }
+  
